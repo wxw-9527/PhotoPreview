@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         findViewById<TextView>(R.id.tv).setOnClickListener {
             ImageViewerActivity.start(this, 1, listOf(
-                "https://img1.baidu.com/it/u=3155988012,1977937542&fm=253&fmt=auto&app=138&f=JPG?w=640&h=343",
-                "https://img0.baidu.com/it/u=652041139,3023980007&fm=253&fmt=auto&app=138&f=JPG?w=460&h=649"
+                "http://192.168.118.160:8888/cloud-test/2023/05/06/0d361dca-8ce7-4041-9699-716aa7922f3a.png",
+                "http://192.168.118.160:8888/cloud-test/2023/05/06/87176d12-a818-46f2-a46d-d0d38d654f0b.png"
             ))
         }
     }
